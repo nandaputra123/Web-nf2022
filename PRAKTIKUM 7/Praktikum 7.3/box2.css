@@ -1,0 +1,40 @@
+.green {
+  width: 100%;
+  height: 150px;
+  background-color: #aedd94;
+}
+
+.box {
+  display: flex;
+  margin: 1em 0em 1em 0em;
+}
+.box2 {
+  display: flex;
+  margin: 1em 0em 1em 0em;
+}
+
+.yellow1 {
+  width: 200px;
+  height: 200px;
+  margin-right: 3%;
+  background-color: yellow;
+}
+
+.orange {
+  width: 100%;
+  height: 200px;
+  background-color: orangered;
+}
+
+.yellow2 {
+  width: 200px;
+  height: 200px;
+  margin-right: 3%;
+  background-color: yellow;
+}
+
+.blue {
+  width: 100%;
+  height: 200px;
+  background-color: lightblue;
+}
