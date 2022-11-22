@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    background-color: azure;
+    flex: 2;
+
+}
+
+main aside {
+    background-color: bisque;
+    flex: 1;
+
+} 
+
+main nav {
+    background-color: cadetblue;
+    flex: 1;
+} 
+
+header, footer {
+    background-color: darkgoldenrod;
+    padding: 1rem;
+}
