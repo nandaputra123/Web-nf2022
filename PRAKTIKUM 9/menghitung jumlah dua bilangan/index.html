@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div.a {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a">
+      <h2>Penjumlahan dua bilangan</h2>
+      <b><p>Nilai pertama</p></b>
+      <input type="text" id="bilangan1" onchange="penjumlahan()" />
+      <br />
+      +
+      <br />
+      <input type="text" id="bilangan2" onchange="penjumlahan()" />
+      <br />
+      =
+      <br />
+      <input type="text" id="result" />
+    </div>
+
+    <script>
+      function penjumlahan() {
+        let bilangan1 = document.getElementById('bilangan1').value;
+        let bilangan2 = document.getElementById('bilangan2').value;
+        let result = parseInt(bilangan1) + parseInt(bilangan2);
+        document.getElementById('result').value = result;
+      }
+    </script>
+  </body>
+</html>
