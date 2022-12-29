@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>form Pemesanan Barang</title>
+
+<style>
+.nav {
+    border: 1px solid;
+    background-color:  silver;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.box {
+    width: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+</style>
+
+<body style="background-color: rgb(26, 92, 104);">
+
+    <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li>|</li>
+        <li><a href="#GenerateLink">Generate Link</a></li>
+        <li>|</li>
+        <li><a href="#Transactionhistory">Transaction History</a></li>
+        <li>|</li>
+        <li><a href="#Policy">Policy</a></li>
+        <li>|</li>
+        <li><a href="#Logout">Logout</a></li>
+    </ul>
+
+    <form>
+    <div class="div" style="display:grid; grid-template-columns: 30% 70%; margin-top: 50px;">
+        <div class="#1">
+        <iframe src="macbook.jpg"></iframe>
+        <p>Upload Picture</p>
+        <input type="file" name="Photo">
+        </div>
+        <div class="#2">
+            <table>
+                <tr>
+                    <td class="box">Title Here</td>
+                    <td>:
+                        <a style="text-align: 20px;" >MacBook Air $800 </a>
+                     </td>
+                </tr>
+                <tr>
+                    <td class="box">Description </td>
+                    <td>:
+                        <a style="text-align: 20px;" >Year 2009</a>
+                        <br>:
+                        <a style="text-align: 20px;" >model:</a>
+                        <br>:
+                        <a style="text-align: 20px;" >Condition: Mint </a>
+                         
+                    </td>
+                </tr>
+                <tr>
+                    <td class="box">Total amount </td>
+                    <td>:
+                        <a style="width: 60%;">$800</a></td>
+                </tr>
+                <tr>
+                    <td class="box">Pay to </td>
+                    <td>:
+                        <a style="width: 60%;">123-456-789-0</a></td>
+                </tr>
+                <tr>
+                    <td class="box">Payment Type </td>
+                    <td><select style="width: 40%;">
+                        <option value="" selected>Visa debit</option>
+                        <option value="">Indomaret</option>
+                        <option value="">Clawson</option>
+                        <option value="">Alfamart</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="box">Account Holder</td>
+                    <td>:
+                        <a style="text-align: 20px;" >Nanda</a>
+                     </td>
+                </tr>
+                <tr>
+                    <td class="box">Account No</td>
+                    <td>:
+                        <a style="text-align: 20px;" >123-456-789-0 </a>
+                     </td>
+                </tr>
+                <tr>
+                    <td class="box">Transaction :</td>
+                    <td><input type="number" style="width: 5%;" min="1" placeholder="1"><strong>* if the transaction is for 3 person, choose 3 from drop-down list</strong></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox"> <label>Send Mobile Phone</label>
+
+                    <br>
+                    <input type="checkbox"> <label>Send To Email</label></td>
+                </tr>
+                <tr>
+                    <td class="box">Send to Mobile Phone</td>
+                    <td>:
+                        <a style="text-align: 20px;" >1234567890, 1234567891</a>
+                     </td>
+                </tr>
+                <tr>
+                    <td class="box">Send To E-mail</td>
+                    <td>:
+                        <a style="text-align: 20px;" >nandawibowo356@gmail.com</a>
+                     </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+        <div style="text-align: center; margin-top: 30px;">
+        <button style="background-color: rgb(229, 240, 229); color: white; border: 2px solid black;" type="submit"><a href="form_pesanan.html"> Pay using Quid Link</a></button>
+        </div>
+    
+    </form>
+</body>
+</html>
